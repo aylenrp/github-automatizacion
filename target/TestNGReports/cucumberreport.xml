@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="0" skipped="0" total="1">
+<suite duration-ms="7987" name="io.cucumber.core.plugin.TestNGFormatter">
+<test duration-ms="7987" name="io.cucumber.core.plugin.TestNGFormatter">
+<class name="Registro usuario portal">
+<test-method duration-ms="7768" finished-at="2022-06-22T19:28:39.475Z" name="Solicitud Registro usuario correcta" started-at="2022-06-22T19:28:31.696Z" status="FAIL">
+<exception class="org.openqa.selenium.NoSuchElementException">
+<message><![CDATA[Given una persona que no es usuario y accede al Registro de usuario.........passed
+When envia solicitud con los datos introducidos correctamente...............failed
+Then se envia la solicitud correctamente y muestra el mensaje...............skipped
+]]></message>
+<full-stacktrace><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[3]/div[3]/div/div[2]/form/div[2]/div/div[1]/button/span[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AYLEN', ip: '192.168.0.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 25296, moz:profile: C:\Users\aylen\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e50439a7-6edf-432a-ad40-dd96d05122b8
+*** Element info: {Using=xpath, value=/html/body/div[3]/div[3]/div/div[2]/form/div[2]/div/div[1]/button/span[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinition.RegistroUsuario.envia_solicitud_con_los_datos_introducidos(RegistroUsuario.java:89)
+	at ✽.envia solicitud con los datos introducidos correctamente(file:///C:/Users/aylen/Documents/WillDom/Proyecto%20cucumber/eclipse-workspace/CucumberTest/src/test/resources/features/registroUsuario.feature:11)
+]]></full-stacktrace>
+</exception>
+</test-method>
+</class>
+</test>
+</suite>
+</testng-results>

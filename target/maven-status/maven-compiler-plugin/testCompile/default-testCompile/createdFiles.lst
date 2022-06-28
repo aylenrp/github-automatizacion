@@ -1,0 +1,5 @@
+stepDefinition\SeleniumSteps.class
+stepDefinition\LoginSteps.class
+stepDefinition\RegistroUsuario.class
+stepDefinition\SearchSteps.class
+RunCukesTest.class
